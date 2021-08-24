@@ -1,5 +1,7 @@
 # Pirá: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean
-Pirá [link] is a manually-constructed dataset of questions and answers about the ocean and the Brazilian coast. Questions were produced by undergraduate and graduate students based on two different corpora: 3891 abstracts of scientific papers on the Brazilian coast and two reports of the UN on the ocean ("World Ocean Assessment" I and II).
+Pirá [link] is a manually-constructed dataset of questions and answers about the ocean and the Brazilian coast. 
+
+The dataset generation process is depicted above. Firstly, we collected two different corpora: abstracts of scientific papers about the Brazilian coast, and small excerpts of two books about the ocean organized by the United Nations ("World Ocean Assessment" I and II). A group of undergraduate and graduate volunteers then created questions based on these texts, both in English and Portuguese. Participants were instructed to produce questions that could be answered with the use of the texts and no other source of information. In a second step, the same volunteers assessed these QA sets in a number of ways. They were asked to: i) answer the question in both languages without having access to the original answer; ii) assess the whole original QA set (the questions and respective answers) according to a number of aspects; and iii) paraphrase the original question.
 
 <img src="./methodology_overview.png">
 
