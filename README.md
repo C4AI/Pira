@@ -50,7 +50,7 @@ If you use or discuss this dataset in your work, please cite it as follows:
 }
 ```
 
-If you use our dataset, please get in contact with us, so we can put reference it here.
+If you use our dataset, please get in contact with us, so we can reference it here.
 
 # License
 *Pirá* dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
