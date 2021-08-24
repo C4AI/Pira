@@ -10,9 +10,10 @@ The dataset generation process is depicted above. Two different corpora of texts
 
 <img src="./methodology_overview.png" width=800>
 
-# Format
+# Dataset description
 The dataset is available in three formats: JSON, CSV, and XLSX.
 
+For each of them
 Here is example of QA set from Pirá:
 
 ```
