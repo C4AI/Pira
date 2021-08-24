@@ -8,10 +8,10 @@ Pirá is, to the best of our knowledge, the first QA dataset with supporting tex
 # Methodology
 The dataset generation process is depicted above. Two different corpora of texts were collected: abstracts of scientific papers about the Brazilian coast, and small excerpts of two books about the ocean organized by the United Nations ("World Ocean Assessment" I and II). Next, a group of undergraduate and graduate volunteers elaborated questions based on these texts, both in English and Portuguese. Participants were instructed to produce questions that could be answered with the use of the texts and no other source of information. In a second step, the same volunteers assessed these QA sets in a number of ways. They were asked to: i) answer the question in both languages without having access to the original answer; ii) assess the whole original QA set (the questions and respective answers) according to a number of aspects; and iii) paraphrase the original question.
 
-<img src="./methodology_overview.png">
+<img src="./methodology_overview.png" width=800>
 
 # Dataset description
-The dataset is avaialble in three formats: JSON, CSV, and XLSX.
+The dataset is available in three formats: JSON, CSV, and XLSX.
 
 Each JSON file is in the following format:
 
