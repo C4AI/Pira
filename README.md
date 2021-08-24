@@ -29,9 +29,9 @@ For the sake of completeness, we also make available *Pirá-C*, with all the que
 
 | Version  |  #QA sets  |
 | ------------------- | ------------------- |
-|  *Pirá-F* |  x |
-|  *Pirá-T* |  x |
-|  *Pirá-C* |  x |
+|  *Pirá-F* |  1347 |
+|  *Pirá-T* |  2070 |
+|  *Pirá-C* |  2272 |
 
 # Web application
 As part of the process of creating Pirá, we developed a web application for conducting the two phases of the experiment: QA creation and evaluation.
