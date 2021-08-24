@@ -28,13 +28,14 @@ The code for the two parts of the application can be found here [link] [link].
 
 # Citation
 If you use or discuss this dataset in your work, please cite it as follows:
-@inproceedings{x,
+> @inproceedings{x,
     title = "{Pirá: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean}",
     author = "x",
     booktitle = "x",
     year = "2021"
 }
 
+If you use our dataset, please get in contact with us, so we can put reference it here.
 
 # License
 *Pirá* dataset is licensed under CC BY 4.0.
