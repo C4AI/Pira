@@ -13,9 +13,11 @@ The dataset generation process is depicted above. Two different corpora of texts
 # Format
 The dataset is available in three formats: JSON, CSV, and XLSX.
 
-Here is example of QA set from the dataset:
+Here is example of QA set from Pirá:
 
-....
+```
+EXEMPLO - Pegar um exemplo do corpus 2
+```
 
 # Web application
 As part of the process of creating Pirá, we developed a web application for conducting the two phases of the experiment: QA creation and evaluation.
@@ -37,4 +39,4 @@ If you use or discuss this dataset in your work, please cite it as follows:
 If you use our dataset, please get in contact with us, so we can put reference it here.
 
 # License
-*Pirá* dataset is licensed under CC BY 4.0.
+*Pirá* dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
