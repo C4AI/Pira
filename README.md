@@ -36,7 +36,7 @@ For the sake of completeness, we also make available *Pirá-C*, with all the que
 # Web application
 As part of the process of creating Pirá, we developed a web application for conducting the two phases of the experiment: QA creation and evaluation.
 
-The code for the two parts of the application can be found here [data-set-builder](https://github.com/C4AI/data-set-builder) and [data-set-validator](https://github.com/C4AI/data-set-validator).
+The code for the two parts of the application can be found in [data-set-builder](https://github.com/C4AI/data-set-builder) and [data-set-validator](https://github.com/C4AI/data-set-validator).
 
 # Citation
 If you use or discuss this dataset in your work, please cite it as follows:
