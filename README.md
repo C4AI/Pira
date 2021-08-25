@@ -6,7 +6,7 @@ This dataset contains 2261 QA sets, as well as the texts associated with them. E
 Pirá is, to the best of our knowledge, the first QA dataset with supporting texts in Portuguese, and, perhaps more importantly, the first bilingual QA dataset that includes Portuguese as one of the languages. Pirá is also the first QA dataset in Portuguese with unanswerable questions so as to allow the study of answer triggering; finally, it is the first QA dataset that deals with scientific knowledge about the ocean, climate change, and marine biodiversity.
 
 # Methodology
-The dataset generation process is depicted above. Two different corpora of texts were collected: corpus 1 is composed of abstracts of scientific papers about the Brazilian coast from the Scopus database, and corpus 2 is composed of small excerpts of two books about the ocean organized by the United Nations ([World Ocean Assessment I](https://www.un.org/regularprocess/content/first-world-ocean-assessment) and [World Ocean Assessment II](https://www.un.org/regularprocess/woa2launch)). Undergraduate and graduate volunteers then created questions based on these texts, both in English and Portuguese. Participants were instructed to produce questions that could be answered with the use of the texts and no other source of information. In a second step, the same volunteers assessed these QA sets in a number of ways. They were asked to: i) answer the question in both languages without having access to the original answer; ii) assess the whole original QA set (the questions and respective answers) according to a number of aspects; and iii) paraphrase the original question.
+The dataset generation process is depicted above. Two different corpora of texts were collected: corpus 1 is composed of 3891 abstracts of scientific papers about the Brazilian coast from the Scopus database, and corpus 2 is composed of 189 small excerpts of two reports on the ocean organized by the United Nations ([World Ocean Assessment I](https://www.un.org/regularprocess/content/first-world-ocean-assessment) and [World Ocean Assessment II](https://www.un.org/regularprocess/woa2launch)). Undergraduate and graduate volunteers then created questions based on these texts, both in English and Portuguese. Participants were instructed to produce questions that could be answered with the use of the texts and no other source of information. In a second step, the same volunteers assessed these QA sets in a number of ways. They were asked to: i) answer the question in both languages without having access to the original answer; ii) assess the whole original QA set (the questions and respective answers) according to a number of aspects; and iii) paraphrase the original question.
 
 <img src="./methodology_overview.png" width=800>
 
@@ -69,7 +69,7 @@ If you use or discuss this dataset in your work, please cite it as follows:
 }
 ```
 
-If you use our dataset, please get in contact with us, so we can reference it here.
+In case you cite our work, please contact us: we will be very happy of referencing it here.
 
 # License
 *Pirá* dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
