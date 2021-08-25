@@ -71,13 +71,13 @@ If you use or discuss this dataset in your work, please cite it as follows:
 
 In case you cite our work, please contact us: we will be very happy of referencing it here.
 
-This work was carried out at the [Center for Artificial Intelligence](http://c4ai.inova.usp.br/) at the University of São Paulo (C4AI-USP), with support by the São Paulo Research Foundation (FAPESP grant #2019/07665-4) and by the IBM Corporation.
-
-<img src="./C4AI_logo.jpeg" width=800>
-
 # License
 *Pirá* dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Scopus adopts a license–based approach which automatically enables researchers at subscribing institutions to text mine for non-commercial research purposes and to gain access to full text content in XML for this purpose. More information can be found [here](https://www.elsevier.com/about/policies/text-and-data-mining).
 
 The United Nations' Reports on the ocean are freely accessible from the links above.
+
+This work was carried out at the [Center for Artificial Intelligence](http://c4ai.inova.usp.br/) at the University of São Paulo (C4AI-USP), with support by the São Paulo Research Foundation (FAPESP grant #2019/07665-4) and by the IBM Corporation.
+
+<img src="./C4AI_logo.jpeg" width=300>
