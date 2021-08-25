@@ -13,8 +13,27 @@ The dataset generation process is depicted above. Two different corpora of texts
 Here is example of QA set from Pirá:
 
 ```
-EXEMPLO - Pegar um exemplo do corpus 2
-```
+{
+    "id_qa": "B2142",
+    "corpus": 2,
+    "question_en_origin": "What are the proportion of men and women employed in the fishery sector worlwide?",
+    "question_pt_origin": "Qual é a proporção de homens e mulheres empregados no setor pesqueiro em todo o mundo?",
+    "question_en_paraphase": "Which share of the fishery sector workers of the world are women?",
+    "question_pt_paraphase": "Qual parcela dos trabalhadores do setor da pesca no mundo são mulheres?",
+    "answer_en_origin": "85 per cent men and 15 per cent women.",
+    "answer_pt_origin": "85 por cento homens e 15 por cento mulheres.",
+    "answer_en_validate": "It is estimated that more than fifteen per cent of the fishing sector workers are women.",
+    "answer_pt_validate": "Estima-se que mais de quinze por cento dos trabalhadores do setor da pesca são mulheres.",
+    "eid_article_scopus": "",
+    "text_excerpts_un_reports": "<h1>Distribution of ocean benefits and disbenefits</h1> \n\n<h2>Developments in employment and income from fisheries and aquaculture</h2> \n\n<p>The global harvest of marine capture fisheries has expanded rapidly since the early 1950s and is currently estimated to be about 80 million tons a year. That harvest is estimated to have a first (gross) value on the order of 113 billion dollars. Although it is difficult to produce accurate employment statistics, estimates using a fairly narrow definition of employment have put the figure of those employed in fisheries and aquaculture at 58.3 million people (4.4 per cent of the estimated total of economically active people), of which 84 per cent are in Asia and 10 per cent in Africa. Women are estimated to account for more than 15 per cent of people employed in the fishery sector. Other estimates, probably taking into account a wider definition of employment, suggest that capture fisheries provide direct and indirect employment for at least 120 million persons worldwide.</p> \n\n<p>Small-scale fisheries employ more than 90 per cent of the world’s capture fishermen and fish workers, about half of whom are women. When all dependants of those taking full- or part-time employment in the full value chain and support industries (boatbuilding, gear construction, etc.) of fisheries and aquaculture are included, one estimate concludes that between 660 and 820 million persons have some economic or livelihood dependence on fish capture and culture and the subsequent direct value chain. No sound information appears to be available on the levels of death and injury of those engaged in capture fishing or aquaculture, but capture fishing is commonly characterized as a dangerous occupation.</p> \n\n<p>Over time, a striking shift has occurred in the operation and location of capture fisheries. In the 1950s, capture fisheries were largely undertaken by developed fishing States. Since then, developing countries have increased their share. As a broad illustration, in the 1950s, the southern hemisphere accounted for no more than 8 per cent of landed values. By the last decade, the southern hemisphere’s share had risen to 20 per cent. In 2012, international trade represented 37 per cent of the total fish production in value, with a total export value of 129 billion dollars, of which 70 billion dollars (58 per cent) was exports by developing countries.</p> \n\n<p>Aquaculture is responsible for the bulk of the production of seaweeds. Worldwide, reports show that 24.9 million tons was produced in 2012, valued at about 6 billion dollars. In addition, about 1 million tons of wild seaweed were harvested. Few data were found on international trade in seaweeds, but their culture is concentrated in countries where consumption of seaweeds is high.</p>",
+    "question_generic": false,
+    "answer_in_text": true,
+    "answer_difficulty": 1,
+    "question_meaningful": 5,
+    "answer_equivalent": 5,
+    "question_type": "None of the above"
+  }
+  ```
 
 # Dataset description
 *Pirá* is available in three formats: [JSON](https://github.com/C4AI/Pira/tree/main/JSON), [CSV](https://github.com/C4AI/Pira/tree/main/CSV), and [XLSX](https://github.com/C4AI/Pira/tree/main/XLSX).
