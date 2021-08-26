@@ -10,6 +10,9 @@ The dataset generation process is depicted below. Two different corpora of texts
 
 <img src="./methodology_overview.png" width=800>
 
+<br>
+<br>
+
 Here is an example of a question-answer pair set from Pirá:
 
 ```
@@ -40,11 +43,13 @@ Here is an example of a question-answer pair set from Pirá:
 
 It has three versions: *Pirá-F* (filtered), *Pirá-T* (triggering), and *Pirá-C* (complete).
 
-***Pirá-F***. It includes only QA sets that volunteers indicated as not generic, that could be answered with only the information provided by the text, and moreover that volunteers agreed (4) or strongly agreed (5) that made sense. When volunteers reported in Phase 2 that their answer did not coincide with the original one (i.e., 1-2 in the Likert scale for “Your answer and the original answer are equivalent”), we excluded the new answer from the dataset. Finally, we also included the paraphrases. The dataset contains up to four possible combinations of QA sets: original question, original answer; original question, new answer; paraphrase, original answer; paraphrase, new answer.
+- ***Pirá-F***. It includes only QA sets that volunteers indicated as not generic, that could be answered with only the information provided by the text, and moreover that volunteers agreed (4) or strongly agreed (5) that made sense. When volunteers reported in Phase 2 that their answer did not coincide with the original one (i.e., 1-2 in the Likert scale for “Your answer and the original answer are equivalent”), we excluded the new answer from the dataset. Finally, we also included the paraphrases. The dataset contains up to four possible combinations of QA sets: original question, original answer; original question, new answer; paraphrase, original answer; paraphrase, new answer.
 
-***Pirá-T***. It is the answer-triggering version of the dataset. It includes all QA sets generated in Phases 1 and 2 (meaningful and meaningless, contextualized and non-contextualized, answered by the text only or not). As for *Parí-F*, we also excluded questions that were assessed with one or two points for the statement “Your answer and the original answer are equivalent”. In addition, the answers (original e new) for questions that volunteers regarded meaningless (1-2 in the Likert scale for “The question makes sense”) were filled with “ ” (blank value). In datasets that every question possess an answer, models can always guess an answer (and sometimes be right just by luck). Instead, by allowing some questions not to have an answer, models are required to learn when they are able to answer a given question, a task known as “answer triggering” (which is getting more important in QA datasets).
+- ***Pirá-T***. It is the answer-triggering version of the dataset. It includes all QA sets generated in Phases 1 and 2 (meaningful and meaningless, contextualized and non-contextualized, answered by the text only or not). As for *Parí-F*, we also excluded questions that were assessed with one or two points for the statement “Your answer and the original answer are equivalent”. In addition, the answers (original e new) for questions that volunteers regarded meaningless (1-2 in the Likert scale for “The question makes sense”) were filled with “ ” (blank value). In datasets that every question possess an answer, models can always guess an answer (and sometimes be right just by luck). Instead, by allowing some questions not to have an answer, models are required to learn when they are able to answer a given question, a task known as “answer triggering” (which is getting more important in QA datasets).
 
-***Pirá-C***. For the sake of completeness, we also make available *Pirá-C*, with all the questions and answers produced in the generation and assessment phases.
+- ***Pirá-C***. For the sake of completeness, we also make available *Pirá-C*, with all the questions and answers produced in the generation and assessment phases.
+
+<center>
 
 | Version  |  #QA sets  |
 | ------------------- | ------------------- |
@@ -52,6 +57,8 @@ It has three versions: *Pirá-F* (filtered), *Pirá-T* (triggering), and *Pirá-
 |  *Pirá-T* |  2070 |
 |  *Pirá-C* |  2272 |
 
+</center>
+    
 # Web application
 As part of the process of creating Pirá, we developed a web application for conducting the two phases of the experiment: QA creation and evaluation.
 
