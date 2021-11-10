@@ -1,5 +1,5 @@
 # *Pirá*: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean
-*Pirá* is a crowdsourced question answering (QA) dataset on the ocean and the Brazilian coast designed for reading comprehension. You can download the full paper [here]().
+*Pirá* is a crowdsourced question answering (QA) dataset on the ocean and the Brazilian coast designed for reading comprehension. You can download the full paper [https://dl.acm.org/doi/pdf/10.1145/3459637.3482012]().
 
 The dataset contains 2261 QA sets, as well as the texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations.
 
@@ -68,11 +68,34 @@ The code for the two parts of the application can be found in [data-set-builder]
 If you use or discuss this dataset in your work, please cite it as follows:
 
 ```
-@inproceedings{x,
-    title = "{Pirá: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean}",
-    author = "x",
-    booktitle = "x",
-    year = "2021"
+@inproceedings{10.1145/3459637.3482012,
+author = {Paschoal, Andr\'{e} F. A. and Pirozelli, Paulo and Freire, Valdinei and Delgado, Karina V. and Peres, Sarajane M. and Jos\'{e}, Marcos M. and Nakasato, Fl\'{a}vio and Oliveira, Andr\'{e} S. and Brand\~{a}o, Anarosa A. F. and Costa, Anna H. R. and Cozman, Fabio G.},
+title = {Pir\'{a}: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3482012},
+doi = {10.1145/3459637.3482012},
+abstract = {Current research in natural language processing is highly dependent on carefully produced
+corpora. Most existing resources focus on English; some resources focus on languages
+such as Chinese and French; few resources deal with more than one language. This paper
+presents the Pir\'{a} dataset, a large set of questions and answers about the ocean and
+the Brazilian coast both in Portuguese and English. Pir\'{a} is, to the best of our knowledge,
+the first QA dataset with supporting texts in Portuguese, and, perhaps more importantly,
+the first bilingual QA dataset that includes this language. The Pir\'{a} dataset consists
+of 2261 properly curated question/answer (QA) sets in both languages. The QA sets
+were manually created based on two corpora: abstracts related to the Brazilian coast
+and excerpts of United Nation reports about the ocean. The QA sets were validated
+in a peer-review process with the dataset contributors. We discuss some of the advantages
+as well as limitations of Pir\'{a}, as this new resource can support a set of tasks in
+NLP such as question-answering, information retrieval, and machine translation.},
+booktitle = {Proceedings of the 30th ACM International Conference on Information & Knowledge Management},
+pages = {4544–4553},
+numpages = {10},
+keywords = {Portuguese-English dataset, question-answering dataset, bilingual dataset, ocean dataset},
+location = {Virtual Event, Queensland, Australia},
+series = {CIKM '21}
 }
 ```
 
