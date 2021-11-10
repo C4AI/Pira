@@ -1,5 +1,5 @@
 # *Pirá*: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean
-*Pirá* is a crowdsourced question answering (QA) dataset on the ocean and the Brazilian coast designed for reading comprehension. You can download the full paper [here] (https://dl.acm.org/doi/pdf/10.1145/3459637.3482012).
+*Pirá* is a crowdsourced question answering (QA) dataset on the ocean and the Brazilian coast designed for reading comprehension. You can download the full paper [here](https://dl.acm.org/doi/pdf/10.1145/3459637.3482012).
 
 The dataset contains 2261 QA sets, as well as the texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations.
 
