@@ -102,7 +102,7 @@ series = {CIKM '21}
 # Case Uses
 Cação, F. N., José, M. M., Oliveira, A. S., Spindola, S., Costa, A. H. R., & Cozman, F. G. (2021). [DEEPAGÉ: Answering Questions in Portuguese about the Brazilian Environment](https://arxiv.org/pdf/2110.10015.pdf). arXiv preprint arXiv:2110.10015.
 
-In case you cite our work, please contact us: we will be very happy of referencing it here.
+In case you cite our work, please contact us: we will be very happy of referencing it here. E-mail: paulo.pirozelli.silva@usp.br.
 
 # License
 *Pirá* dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
