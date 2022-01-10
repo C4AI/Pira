@@ -99,8 +99,10 @@ series = {CIKM '21}
 }
 ```
 
-# Case Uses
+# Applications
 Cação, F. N., José, M. M., Oliveira, A. S., Spindola, S., Costa, A. H. R., & Cozman, F. G. (2021). [DEEPAGÉ: Answering Questions in Portuguese about the Brazilian Environment](https://arxiv.org/pdf/2110.10015.pdf). arXiv preprint arXiv:2110.10015.
+
+Rodrigues, L. A., & Vieira, M. H. D. S. (2021). [Autosumm: Architecture for a Multi-Document Abstractive Summarization System](https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S20.pdf).
 
 In case you cite our work, please contact us: we will be very happy of referencing it here. E-mail: paulo.pirozelli.silva@usp.br.
 
