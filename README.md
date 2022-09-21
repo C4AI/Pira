@@ -100,9 +100,13 @@ series = {CIKM '21}
 ```
 
 # Applications
-Cação, F. N., José, M. M., Oliveira, A. S., Spindola, S., Costa, A. H. R., & Cozman, F. G. (2021). [DEEPAGÉ: Answering Questions in Portuguese about the Brazilian Environment](https://arxiv.org/pdf/2110.10015.pdf). arXiv preprint arXiv:2110.10015.
+Cação, F. N., José, M. M., Oliveira, A. S., Spindola, S., Costa, A. H. R., & Cozman, F. G. (2021). [DEEPAGÉ: Answering Questions in Portuguese about the Brazilian Environment](https://arxiv.org/pdf/2110.10015.pdf).
 
 Rodrigues, L. A., & Vieira, M. H. D. S. (2021). [Autosumm: Architecture for a Multi-Document Abstractive Summarization System](https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S20.pdf).
+
+Cação, F. N., Costa, A. H. R., Unterstell, N., Yonaha, L., Stec, T., & Ishisaki, F. (2022). [Tracking environmental policy changes in the Brazilian Federal Official Gazette. In International Conference on Computational Processing of the Portuguese Language](10.1007/978-3-030-98305-5_24). Springer, Cham, p. 256-66.
+
+Pellicer, L. F. A. O., Pirozelli, P., Costa, A. H. R., & Inoue, A. (2022). [PTT5-Paraphraser: Diversity and Meaning Fidelity in Automatic Portuguese Paraphrasing. In International Conference on Computational Processing of the Portuguese Language](10.1007/978-3-030-98305-5_28). Springer, Cham, p. 299-309.
 
 In case you cite our work, please contact us: we will be very happy of referencing it here. E-mail: paulo.pirozelli.silva@usp.br.
 
