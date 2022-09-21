@@ -58,7 +58,17 @@ It has three versions: *Pirá-F* (filtered), *Pirá-T* (triggering), and *Pirá-
 |  *Pirá-C* |  2272 |
 
 </center>
-    
+
+# Baselines
+Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for them are available at this page.
+
+
+Baselines for these benchmarks are reported above:
+
+## Machine Reading Comprehension
+Definição da tarefa
+
+
 # Web application
 As part of the process of creating Pirá, we developed a web application for conducting the two phases of the experiment: QA creation and evaluation.
 
