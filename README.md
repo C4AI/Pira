@@ -75,7 +75,9 @@ As part of the process of creating Pirá, we developed a web application for con
 The code for the two parts of the application can be found in [data-set-builder](https://github.com/C4AI/data-set-builder) and [data-set-validator](https://github.com/C4AI/data-set-validator).
 
 # Citation
-If you use or discuss this dataset in your work, please cite it as follows:
+If you use or discuss this dataset in your work, please cite it as follows. 
+
+For the original paper:
 
 ```
 @inproceedings{10.1145/3459637.3482012,
@@ -108,6 +110,10 @@ location = {Virtual Event, Queensland, Australia},
 series = {CIKM '21}
 }
 ```
+
+For the Pirá 2.0 dataset or the baselines:
+
+
 
 # Applications
 Cação, F. N., José, M. M., Oliveira, A. S., Spindola, S., Costa, A. H. R., & Cozman, F. G. (2021). [DEEPAGÉ: Answering Questions in Portuguese about the Brazilian Environment](https://arxiv.org/pdf/2110.10015.pdf).
