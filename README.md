@@ -1,5 +1,7 @@
 # *Pirá*: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean, the Brazilian coast, and climate change
-*Pirá* is a crowdsourced reading comprehension dataset on the ocean, the Brazilian coast, and climate change. QA sets are presented in both Portuguese and English; the dataset also contains human paraphrases and assessments. As a subsequent project, we have produced a curated version of the dataset; we also defined a number of benchamarks and reported corresponding baselines.  The original paper (Pirá 1.0) was published at CIKM'21 and can be found [here](https://dl.acm.org/doi/pdf/10.1145/3459637.3482012). The preprint version of Pirá 2.0 is available [here](https://assets.researchsquare.com/files/rs-2046889/v1_covered.pdf?c=1663082327).
+*Pirá* is a crowdsourced reading comprehension dataset on the ocean, the Brazilian coast, and climate change. QA sets are presented in both Portuguese and English; the dataset also contains human paraphrases and assessments. 
+
+The original paper was published at CIKM'21 and can be found [here](https://dl.acm.org/doi/pdf/10.1145/3459637.3482012). As a subsequent project, we have produced a curated version of the dataset, which we refer to as Pirá 2.0. In this step, we have also defined a number of benchamarks and reported corresponding baselines. Pirá 2.0's preprint is available [here](https://assets.researchsquare.com/files/rs-2046889/v1_covered.pdf?c=1663082327).
 
 Pirá is, to the best of our knowledge, the first QA dataset with supporting texts in Portuguese, and, perhaps more importantly, the first bilingual QA dataset that includes Portuguese as one of its languages. Pirá is also the first QA dataset in Portuguese with unanswerable questions so as to allow the study of answer triggering. Finally, it is the first QA dataset that tackles scientific knowledge about the ocean, climate change, and marine biodiversity.
 
@@ -37,29 +39,44 @@ Here is an example of a question-answer pair set from Pirá:
   ```
 
 # Dataset description
-Pirá contains x QA sets, as well as the texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations. 
+Pirá contains 2258 QA sets, as well as supporting texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations. 
 
-For Pirá 2.0, the original dataset has been completely revised to correct for grammar issues, misplaced entries, repeated questions, plus other minor flaws. In addition to that, we extended the dataset in several directions. First, the new dataset includes automatic translations of the supporting texts into Portuguese, allowing us to run the benchmarks in this language as well. Second, we provide classification labels indicating whether a question can be answered or not, which are essential to the answer triggering benchmark. Third, Pirá 2.0 offers a multiple-choice QA extension, where each question has five candidate answers, of which only one is correct. Finally, Pirá 2.0 has automatically-generated paraphrases for questions and answers in both Portuguese and English, a valuable data augmentation addition for training larger models.
+For Pirá 2.0, the original dataset has been completely revised for grammar issues, misplaced entries, repeated questions, plus other minor flaws. In addition to that, we extended the dataset in several directions. First, the new dataset includes automatic translations of the supporting texts into Portuguese, allowing us to run the benchmarks in this language as well. Second, we provide classification labels indicating whether a question can be answered or not, which are essential to the answer triggering benchmark. Third, Pirá 2.0 offers a multiple-choice QA extension, where each question has five candidate answers, of which only one is correct. Finally, Pirá 2.0 brings automatically-generated paraphrases for questions and answers in both Portuguese and English, a valuable data augmentation addition for training larger models.
 
-There are two versions of the dataset:
+We organize the dataset in two different files:
 
 ## Standard dataset
 Contains the supporting texts, QA sets, manual paraphrases, human assessments, and automatic paraphrases.
 
-## Multiple-choice QA
-Contains the supporting texts, the candidate answers, and the correct answer.
+Benchmarks: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering.
 
+## Multiple-choice QA
+Contains the supporting texts, candidate answers, and the label for the correct answer.
+
+Benchmark: multiple-choice question answering.
+
+## Pirá 1.0
 The original Pirá 1.0 dataset is available here.
 
 # Baselines
 Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for them are available at this page.
 
-The best baselines for each benchmark is reported above:
+A brief description of each bechmark is provided above, as well as the results for the best baselines in Portuguese and English:
 
 ## Machine Reading Comprehension
-Definição da tarefa
+In Machine Reading Comprehension (MRC), the goal is to predict a span in the supporting text that answers a given question.
 
+## Information Retrieval
+Information Retrieval is the task of traversing a corpus C and delivering the _k_ most relevant documents for a query _q_.
 
+## Open Question Answering
+Open Question Answering combines the two previous tasks in one: given a question, one has to find the corresponding texts and generate an answer based on them.
+
+## Answer Triggering
+Answer Triggering is the problem of finding which questions should be answered and which ones should not; the “answerability” label are created from the manual assessments for question meaningfulness found on Pirá. 
+
+##  Multiple-Choice Question Answering
+In Multiple Choice Question Answer, each question has five alternative answers, and the goals is to find the correct one.
 
 
 # Web application
@@ -103,10 +120,6 @@ location = {Virtual Event, Queensland, Australia},
 series = {CIKM '21}
 }
 ```
-
-For the Pirá 2.0 dataset or the baselines:
-
-
 
 # Applications
 Rodrigues, L. A., & Vieira, M. H. D. S. (2021). [Autosumm: Architecture for a Multi-Document Abstractive Summarization System](https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S20.pdf).
