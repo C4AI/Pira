@@ -37,34 +37,27 @@ Here is an example of a question-answer pair set from Pirá:
   ```
 
 # Dataset description
-*Pirá* is available in three formats: [JSON](https://github.com/C4AI/Pira/tree/main/JSON), [CSV](https://github.com/C4AI/Pira/tree/main/CSV), and [XLSX](https://github.com/C4AI/Pira/tree/main/XLSX).
+Pirá contains x QA sets, as well as the texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations. 
 
-It has three versions: *Pirá-F* (filtered), *Pirá-T* (triggering), and *Pirá-C* (complete).
+For Pirá 2.0, the original dataset has been completely revised to correct for grammar issues, misplaced entries, repeated questions, plus other minor flaws. In addition to that, we extended the dataset in several directions. First, the new dataset includes automatic translations of the supporting texts into Portuguese, allowing us to run the benchmarks in this language as well. Second, we provide classification labels indicating whether a question can be answered or not, which are essential to the answer triggering benchmark. Third, Pirá 2.0 offers a multiple-choice QA extension, where each question has five candidate answers, of which only one is correct. Finally, Pirá 2.0 has automatically-generated paraphrases for questions and answers in both Portuguese and English, a valuable data augmentation addition for training larger models.
 
-- ***Pirá-F***. It includes only QA sets that volunteers indicated as not generic, that could be answered with only the information provided by the text, and moreover that volunteers agreed (4) or strongly agreed (5) that made sense. When volunteers reported in Phase 2 that their answer did not coincide with the original one (i.e., 1-2 in the Likert scale for “Your answer and the original answer are equivalent”), we excluded the new answer from the dataset. Finally, we also included the paraphrases. The dataset contains up to four possible combinations of QA sets: original question, original answer; original question, new answer; paraphrase, original answer; paraphrase, new answer.
+Standard dataset
 
-- ***Pirá-T***. It is the answer-triggering version of the dataset. It includes all QA sets generated in Phases 1 and 2 (meaningful and meaningless, contextualized and non-contextualized, answered by the text only or not). As for *Parí-F*, we also excluded questions that were assessed with one or two points for the statement “Your answer and the original answer are equivalent”. In addition, the answers (original e new) for questions that volunteers regarded meaningless (1-2 in the Likert scale for “The question makes sense”) were filled with “ ” (blank value). In datasets that every question possess an answer, models can always guess an answer (and sometimes be right just by luck). Instead, by allowing some questions not to have an answer, models are required to learn when they are able to answer a given question, a task known as “answer triggering” (which is getting more important in QA datasets).
+Answer triggering
 
-- ***Pirá-C***. For the sake of completeness, we also make available *Pirá-C*, with all the questions and answers produced in the generation and assessment phases.
+Multiple-choice QA
 
-<center>
-
-| Version  |  #QA sets  |
-| ------------------- | ------------------- |
-|  *Pirá-F* |  1347 |
-|  *Pirá-T* |  2070 |
-|  *Pirá-C* |  2272 |
-
-</center>
+The original Pirá 1.0 dataset is available here.
 
 # Baselines
 Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for them are available at this page.
-
 
 Baselines for these benchmarks are reported above:
 
 ## Machine Reading Comprehension
 Definição da tarefa
+
+
 
 
 # Web application
