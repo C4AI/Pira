@@ -45,21 +45,21 @@ For Pirá 2.0, the original dataset has been completely revised for grammar issu
 
 We organize the dataset in two different files:
 
-## Standard dataset
+### Standard dataset
 Contains the supporting texts, QA sets, manual paraphrases, human assessments, and automatic paraphrases.
 
 Benchmarks: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering.
 
-## Multiple-choice QA
+### Multiple-choice QA
 Contains the supporting texts, candidate answers, and the label for the correct answer.
 
 Benchmark: multiple-choice question answering.
 
-## Pirá 1.0
+### Pirá 1.0
 The original Pirá 1.0 dataset is available here.
 
 # Baselines
-Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for them are available at this page.
+Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for the experiments reported in Pirá 2.0 are available at this page.
 
 A brief description of each bechmark is provided above, as well as the results for the best baselines in Portuguese and English:
 
