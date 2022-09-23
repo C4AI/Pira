@@ -1,7 +1,5 @@
 # *Pirá*: A Bilingual Portuguese-English Dataset for Question-Answering about the Ocean
-*Pirá* is a crowdsourced reading comprehension dataset on the ocean, the Brazilian coast, and climate change. The original paper can be fuond [here](https://dl.acm.org/doi/pdf/10.1145/3459637.3482012). Later, we have produced a curated version of the dataset; we also defined a number of benchamarks and reported corresponding baselines. We can find its preprint version [here](https://assets.researchsquare.com/files/rs-2046889/v1_covered.pdf?c=1663082327).
-
-The dataset contains 2261 QA sets, as well as the texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations.
+*Pirá* is a crowdsourced reading comprehension dataset on the ocean, the Brazilian coast, and climate change. QA sets are presented in both Portuguese and English; the dataset also contains human paraphrases and assessments. As a subsequent project, we have produced a curated version of the dataset; we also defined a number of benchamarks and reported corresponding baselines.  The original paper was published at CIKM'21 and can be found [here](https://dl.acm.org/doi/pdf/10.1145/3459637.3482012). The preprint version is available [here](https://assets.researchsquare.com/files/rs-2046889/v1_covered.pdf?c=1663082327).
 
 Pirá is, to the best of our knowledge, the first QA dataset with supporting texts in Portuguese, and, perhaps more importantly, the first bilingual QA dataset that includes Portuguese as one of its languages. Pirá is also the first QA dataset in Portuguese with unanswerable questions so as to allow the study of answer triggering. Finally, it is the first QA dataset that tackles scientific knowledge about the ocean, climate change, and marine biodiversity.
 
@@ -116,13 +114,11 @@ For the Pirá 2.0 dataset or the baselines:
 
 
 # Applications
-Cação, F. N., José, M. M., Oliveira, A. S., Spindola, S., Costa, A. H. R., & Cozman, F. G. (2021). [DEEPAGÉ: Answering Questions in Portuguese about the Brazilian Environment](https://arxiv.org/pdf/2110.10015.pdf).
-
 Rodrigues, L. A., & Vieira, M. H. D. S. (2021). [Autosumm: Architecture for a Multi-Document Abstractive Summarization System](https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S20.pdf).
 
-Cação, F. N., Costa, A. H. R., Unterstell, N., Yonaha, L., Stec, T., & Ishisaki, F. (2022). [Tracking environmental policy changes in the Brazilian Federal Official Gazette. In International Conference on Computational Processing of the Portuguese Language](10.1007/978-3-030-98305-5_24). Springer, Cham, p. 256-66.
-
 Pellicer, L. F. A. O., Pirozelli, P., Costa, A. H. R., & Inoue, A. (2022). [PTT5-Paraphraser: Diversity and Meaning Fidelity in Automatic Portuguese Paraphrasing. In International Conference on Computational Processing of the Portuguese Language](10.1007/978-3-030-98305-5_28). Springer, Cham, p. 299-309.
+
+Pirozelli, P., Brandão, A. A. F., Peres, S. M., Cozman, F. G. (2022). To Answer or not to Answer? Filtering Questions for QA Systems. 11th Brazilian Conference on Intelligent Systems (BRACIS).
 
 In case you cite our work, please contact us: we will be very happy of referencing it here. E-mail: paulo.pirozelli.silva@usp.br.
 
