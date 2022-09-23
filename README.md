@@ -41,18 +41,20 @@ Pirá contains x QA sets, as well as the texts associated with them. Each QA set
 
 For Pirá 2.0, the original dataset has been completely revised to correct for grammar issues, misplaced entries, repeated questions, plus other minor flaws. In addition to that, we extended the dataset in several directions. First, the new dataset includes automatic translations of the supporting texts into Portuguese, allowing us to run the benchmarks in this language as well. Second, we provide classification labels indicating whether a question can be answered or not, which are essential to the answer triggering benchmark. Third, Pirá 2.0 offers a multiple-choice QA extension, where each question has five candidate answers, of which only one is correct. Finally, Pirá 2.0 has automatically-generated paraphrases for questions and answers in both Portuguese and English, a valuable data augmentation addition for training larger models.
 
-Standard dataset
+There are two versions of the dataset:
 
-Answer triggering
+## Standard dataset
+Contains the supporting texts, QA sets, manual paraphrases, human assessments, and automatic paraphrases.
 
-Multiple-choice QA
+## Multiple-choice QA
+Contains the supporting texts, the candidate answers, and the correct answer.
 
 The original Pirá 1.0 dataset is available here.
 
 # Baselines
 Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for them are available at this page.
 
-Baselines for these benchmarks are reported above:
+The best baselines for each benchmark is reported above:
 
 ## Machine Reading Comprehension
 Definição da tarefa
@@ -120,8 +122,8 @@ In case you cite our work, please contact us: we will be very happy of referenci
 
 Scopus adopts a license–based approach which automatically enables researchers at subscribing institutions to text mine for non-commercial research purposes and to gain access to full text content in XML for this purpose. More information can be found [here](https://www.elsevier.com/about/policies/text-and-data-mining).
 
-The United Nations' Reports on the ocean are freely accessible from the links above.
+The United Nations' Reports on the ocean are freely accessible through the links above.
 
-This work was carried out at the [Center for Artificial Intelligence](http://c4ai.inova.usp.br/) at the University of São Paulo (C4AI-USP), with support by the São Paulo Research Foundation (FAPESP grant #2019/07665-4) and by the IBM Corporation.
+This work was carried out at the [Center for Artificial Intelligence](http://c4ai.inova.usp.br/) at the University of São Paulo (C4AI-USP), with support by the São Paulo Research Foundation (FAPESP grant #2019/07665-4) and by the IBM Corporation. It is part of the Knowledge-Enhanced Machine Learning for Reasoning about Ocean Data (KEML), a project that aims to developed a [BLue Amazon Brain](https://arxiv.org/pdf/2209.07928.pdf). 
 
 <img src="./C4AI_logo.jpeg" width=300>
