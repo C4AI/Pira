@@ -37,7 +37,7 @@ Here is an example of a question-answer pair set from Pirá:
     "question_type": "None of the above"
   }
   ```
-
+  
 # Dataset description
 Pirá contains 2258 QA sets, as well as supporting texts associated with them. Each QA set contains at least four elements: a question in Portuguese and in English, and an answer in Portuguese and in English. Around 90% of the QA sets also contain human evaluations. 
 
@@ -45,7 +45,7 @@ For Pirá 2.0, the original dataset has been completely revised for grammar issu
 
 We organize the dataset in two different files. In both cases, the dataset is split into train, validation, and test sets.
 
-### Standard dataset
+### [Standard dataset](https://github.com/C4AI/Pira/tree/main/Data)
 - Contains the supporting texts, QA sets, manual paraphrases, human assessments, and automatic paraphrases.
 
 - Benchmarks supported: machine reading comprehension, information retrieval, open question answering, and answer triggering.
