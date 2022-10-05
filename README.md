@@ -65,7 +65,7 @@ Five benchmarks have been created for Pirá 2.0: machine reading comprehension, 
 
 A brief description of each bechmark is provided above, as well as the results for the best baselines in Portuguese and English:
 
-## Machine Reading Comprehension
+## [Machine Reading Comprehension](https://github.com/C4AI/Pira/tree/main/MRC_QA)
 In Machine Reading Comprehension (MRC), the goal is to predict a span in the supporting text that answers a given question.
 
 Results in English. In bold, best results for extractive and generative models based on F1-score.
@@ -88,7 +88,7 @@ Results in Portuguese. In bold, best results for extractive and generative model
 | **Generative** | **PTT5 Base** | **Pirá 2** | **1536** | **27.90** | **4.44** |
 | Generative | mT5 Base | SQuAD 2/Pirá 2 | 512 | 14.23 | 0.00 |
 
-## Information Retrieval
+## [Information Retrieval](https://github.com/C4AI/Pira/tree/main/Retrieval)
 Information Retrieval is the task of traversing a corpus C and delivering the _k_ most relevant documents for a query _q_.
 
 Performance comparison between BM25 (sparse, in blue) and DPR (dense, in red) for increasing number of retrieved documents k. In yellow, the simulated performance of a random retriever.
@@ -99,7 +99,7 @@ Performance comparison between the two different implementations of the algorith
 
 <img src="./translated_paragraphs.png" width=400>
 
-## Open Question Answering
+## [Open Question Answering](https://github.com/C4AI/Pira/tree/main/Open_QA)
 Open Question Answering combines the two previous tasks in one: given a question, one has to find the corresponding texts and generate an answer based on them.
 
 Results in English. In bold, best results for extractive and generative models based on F1-score.
@@ -118,7 +118,7 @@ Results in Portuguese. In bold, best results for extractive and generative model
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **15** | **31.23** | **3.08** |
 | **Generative** | **PTT5 Base** | **Pirá 2** | **15** | **24.47** | **1.76** |
 
-## Answer Triggering
+## [Answer Triggering](https://github.com/C4AI/Pira/tree/main/Triggering)
 Answer Triggering is the problem of finding which questions should be answered and which ones should not; the “answerability” label are created from the manual assessments for question meaningfulness found on Pirá. 
 
 For this benchmark, we use three types of dataset. _Standard_ is the regular Pirá 2.0 dataset after the aswer triggering labeling process. In _Human Paraphrase_, the training set is augmented with the validation answers and question paraphrases produced in the assessment phase. In _Automatic Paraphrase_, the training set is augmented with automatic paraphrases, using PEGASUS for English and PTT5-Paraphraser for Portuguese. 
@@ -138,7 +138,7 @@ F1-score for transformer models in English (DistilBERT, RoBERTa, and ALBERT) and
 | Autom. Par. | 48.59 (1) | 50.76 (2) | 51.32 (3) | **49.18 (1)** |
 
 
-##  Multiple Choice Question Answering
+## [Multiple Choice Question Answering](https://github.com/C4AI/Pira/tree/main/MCQA)
 In Multiple Choice Question Answer, each question has five alternative answers, and the goals is to find the correct one.
 
 Accuracy for Multiple Choice Question Answer. Best result in bold.
