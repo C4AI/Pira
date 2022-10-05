@@ -66,6 +66,27 @@ A brief description of each bechmark is provided above, as well as the results f
 ## Machine Reading Comprehension
 In Machine Reading Comprehension (MRC), the goal is to predict a span in the supporting text that answers a given question.
 
+Results in English:
+| Model type | Model | Fine-tuned | MSL | F1 | EM |
+|---|---|---|---|---|---|
+| Extractive | BERT Base | SQuAD 1 | 512 | 41.54 | 11.01 |
+| Extractive | BERT Large | SQuAD 2 | 512 | 46.96 | 12.34 |
+| Extractive | RoBERTa Base | SQuAD 2 | 512 | 47.65 | 13.66 |
+| **Extractive** | **RoBERTa Large** | **SQuAD 2** | **512** | **48.22** | **12.78**|
+| Extractive | ELECTRA Large | SQuAD 2 | 512 | 46.20 | 11.89 |
+||
+| Generative | T5 Base | SQuAD 2/Pirá 2 | 512 | 49.12 | 9.78 |
+| Generative | T5 Base | SQuAD 2/Pirá 2 | 1024 | 50.50 | 11.56 |
+| **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **1536** | **51.27** | **13.33** |
+| Generative | T5 Large | SQuAD 2/Pirá 2 | 512 | 41.22 | 10.67 |
+
+Results in Portuguese:
+| Model type | Model | Fine-tuned | MSL | F1 | EM |
+|---|---|---|---|---|---|
+| Extractive | BERTimbau | Squad 1.1 | 512 | 37.53 | 4.44 |
+| Generative | PTT5 Base | Pirá 2 | 1536 | 27.90 | 4.44 |
+| Generative | mT5 Base | SQuAD 2/Pirá 2 | 512 | 14.23 | 0.00 |
+
 ## Information Retrieval
 Information Retrieval is the task of traversing a corpus C and delivering the _k_ most relevant documents for a query _q_.
 
