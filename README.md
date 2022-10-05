@@ -89,6 +89,12 @@ Results in Portuguese. In bold, best results for extractive and generative model
 ## Information Retrieval
 Information Retrieval is the task of traversing a corpus C and delivering the _k_ most relevant documents for a query _q_.
 
+Performance comparison between BM25 (sparse, in blue) and DPR (dense, in red) for increasing number of retrieved documents k. In yellow, the simulated performance of a random retriever.
+<img src="./bm25_v_dpr.png" width=800>
+
+Performance comparison between the two different implementations of the algorithm for Portuguese. In the first, the system searches for passages that contain the correct answer in a Portuguese-translated version of the corpus (blue line). In the second, the system translates the question into English and searches in the original English corpus. In yellow, we plot the performance of a simulated random retriever.
+<img src="./translated_paragraphs.png" width=800>
+
 ## Open Question Answering
 Open Question Answering combines the two previous tasks in one: given a question, one has to find the corresponding texts and generate an answer based on them.
 
