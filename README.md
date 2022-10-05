@@ -66,7 +66,7 @@ A brief description of each bechmark is provided above, as well as the results f
 ## Machine Reading Comprehension
 In Machine Reading Comprehension (MRC), the goal is to predict a span in the supporting text that answers a given question.
 
-Results in English. In bold, best results for extractive and generative models.
+Results in English. In bold, best results for extractive and generative models based on F1-score.
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
 | Extractive | BERT Base | SQuAD 1 | 512 | 41.54 | 11.01 |
@@ -79,7 +79,7 @@ Results in English. In bold, best results for extractive and generative models.
 | **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **1536** | **51.27** | **13.33** |
 | Generative | T5 Large | SQuAD 2/Pirá 2 | 512 | 41.22 | 10.67 |
 
-Results in Portuguese. In bold, best results for extractive and generative models.
+Results in Portuguese. In bold, best results for extractive and generative models based on F1-score.
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **512** | **37.53** | **4.44** |
@@ -92,7 +92,7 @@ Information Retrieval is the task of traversing a corpus C and delivering the _k
 ## Open Question Answering
 Open Question Answering combines the two previous tasks in one: given a question, one has to find the corresponding texts and generate an answer based on them.
 
-Results in English. In bold, best results for extractive and generative models.
+Results in English. In bold, best results for extractive and generative models based on F1-score.
 | Model type | Model | Fine-tuned | k | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **RoBERTa Large** | **SQuAD 2** | **5** | **41.65** | **11.01** |
@@ -102,7 +102,7 @@ Results in English. In bold, best results for extractive and generative models.
 | Generative | T5 Base | SQuAD 2/Pirá 2 | 10 | 47.12 | 11.45 |
 | **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **15** | **48.11** | **11.45** |
 
-Results in Portuguese. In bold, best results for extractive and generative models.
+Results in Portuguese. In bold, best results for extractive and generative models based on F1-score.
 | Model type | Model | Fine-tuned | k | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **15** | **31.23** | **3.08** |
@@ -113,14 +113,14 @@ Answer Triggering is the problem of finding which questions should be answered a
 
 For this benchmark, we use three types of dataset. _Standard_ is the regular Pirá 2.0 dataset after the aswer triggering labeling process. In _Human Paraphrase_, the training set is augmented with the validation answers and question paraphrases produced in the assessment phase. In _Automatic Paraphrase_, the training set is augmented with automatic paraphrases, using PEGASUS for English and PTT5-Paraphraser for Portuguese. 
 
-F1-score for class assignment and Naive Bayes. 
+F1-score for class assignment and Naive Bayes. In bold, best results for Class assignment and Naive Bayes.
 | Dataset | Class Assignment | Naive Bayes |
 |---|---|---|
 | Standard | **45.32** | **45.32 (1)** |
 | Hum. Par. | **45.32** | 43.90 (3) |
 | Autom. Par. | **45.32** | 44.34 (2) |
 
-F1-score for transformer models in English (DistilBERT, RoBERTa, and ALBERT) and Portuguese (BERTimbau).
+F1-score for transformer models in English (DistilBERT, RoBERTa, and ALBERT) and Portuguese (BERTimbau). In bold, best results for Emglish and Portuguese.
 | Dataset | DistilBERT | RoBERTa | ALBERT | BERTimbau |
 |---|---|---|---|---|
 | Standard | 48.33 (2) | 51.61 (1) | 52.31 (2) | 46.09 (3) |
@@ -128,9 +128,10 @@ F1-score for transformer models in English (DistilBERT, RoBERTa, and ALBERT) and
 | Autom. Par. | 48.59 (1) | 50.76 (2) | 51.32 (3) | **49.18 (1)** |
 
 
-##  Multiple-Choice Question Answering
+##  Multiple Choice Question Answering
 In Multiple Choice Question Answer, each question has five alternative answers, and the goals is to find the correct one.
 
+Accuracy for Multiple Choice Question Answer. Best result in bold.
 | Model | Accuracy |
 |---|---|
 | Random | 20 |
