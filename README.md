@@ -66,7 +66,7 @@ A brief description of each bechmark is provided above, as well as the results f
 ## Machine Reading Comprehension
 In Machine Reading Comprehension (MRC), the goal is to predict a span in the supporting text that answers a given question.
 
-Results in English:
+Results in English. In bold, best results for extractive and generative models.
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
 | Extractive | BERT Base | SQuAD 1 | 512 | 41.54 | 11.01 |
@@ -79,7 +79,7 @@ Results in English:
 | **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **1536** | **51.27** | **13.33** |
 | Generative | T5 Large | SQuAD 2/Pirá 2 | 512 | 41.22 | 10.67 |
 
-Results in Portuguese:
+Results in Portuguese. In bold, best results for extractive and generative models.
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **512** | **37.53** | **4.44** |
@@ -92,7 +92,7 @@ Information Retrieval is the task of traversing a corpus C and delivering the _k
 ## Open Question Answering
 Open Question Answering combines the two previous tasks in one: given a question, one has to find the corresponding texts and generate an answer based on them.
 
-Results in English:
+Results in English. In bold, best results for extractive and generative models.
 | Model type | Model | Fine-tuned | k | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **RoBERTa Large** | **SQuAD 2** | **5** | **41.65** | **11.01** |
@@ -102,7 +102,7 @@ Results in English:
 | Generative | T5 Base | SQuAD 2/Pirá 2 | 10 | 47.12 | 11.45 |
 | **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **15** | **48.11** | **11.45** |
 
-Results in Portuguese:
+Results in Portuguese. In bold, best results for extractive and generative models.
 | Model type | Model | Fine-tuned | k | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **15** | **31.23** | **3.08** |
