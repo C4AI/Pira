@@ -43,12 +43,14 @@ Pirá contains 2258 QA sets, as well as supporting texts associated with them. E
 
 For Pirá 2.0, the original dataset has been completely revised for grammar issues, misplaced entries, repeated questions, plus other minor flaws. In addition to that, we extended the dataset in several directions. First, the new dataset includes automatic translations of the supporting texts into Portuguese, allowing us to run the benchmarks in this language as well. Second, we provide classification labels indicating whether a question can be answered or not, which are essential to the answer triggering benchmark. Third, Pirá 2.0 offers a multiple-choice QA extension, where each question has five candidate answers, of which only one is correct. Finally, Pirá 2.0 brings automatically-generated paraphrases for questions and answers in both Portuguese and English, a valuable data augmentation addition for training larger models.
 
-We organize the dataset in two different files:
+We organize the dataset in two different files. In both cases, the dataset is split into train, validation, and test sets.
 
 ### Standard dataset
 - Contains the supporting texts, QA sets, manual paraphrases, human assessments, and automatic paraphrases.
 
-- Benchmarks supported: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering.
+- Benchmarks supported: machine reading comprehension, information retrieval, open question answering, and answer triggering.
+
+- Split into train, validation, and test sets.
 
 ### Multiple-choice QA
 - Contains the supporting texts, candidate answers, and the label for the correct answer.
