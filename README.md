@@ -74,7 +74,6 @@ Results in English:
 | Extractive | RoBERTa Base | SQuAD 2 | 512 | 47.65 | 13.66 |
 | **Extractive** | **RoBERTa Large** | **SQuAD 2** | **512** | **48.22** | **12.78**|
 | Extractive | ELECTRA Large | SQuAD 2 | 512 | 46.20 | 11.89 |
-||
 | Generative | T5 Base | SQuAD 2/Pirá 2 | 512 | 49.12 | 9.78 |
 | Generative | T5 Base | SQuAD 2/Pirá 2 | 1024 | 50.50 | 11.56 |
 | **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **1536** | **51.27** | **13.33** |
@@ -84,7 +83,6 @@ Results in Portuguese:
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **512** | **37.53** | **4.44** |
-||
 | **Generative** | **PTT5 Base** | **Pirá 2** | **1536** | **27.90** | **4.44** |
 | Generative | mT5 Base | SQuAD 2/Pirá 2 | 512 | 14.23 | 0.00 |
 
@@ -100,7 +98,6 @@ Results in English:
 | **Extractive** | **RoBERTa Large** | **SQuAD 2** | **5** | **41.65** | **11.01** |
 | Extractive | RoBERTa Large | SQuAD 2 | 10 | 40.87 | 11.01 |
 | Extractive | RoBERTa Large | SQuAD 2 | 15 | 40.48 | 10.57 |
-||
 | Generative | T5 Base | SQuAD 2/Pirá 2 | 5 | 45.99 | 12.33 |
 | Generative | T5 Base | SQuAD 2/Pirá 2 | 10 | 47.12 | 11.45 |
 | **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **15** | **48.11** | **11.45** |
@@ -109,7 +106,6 @@ Results in Portuguese:
 | Model type | Model | Fine-tuned | k | F1 | EM |
 |---|---|---|---|---|---|
 | **Extractive** | **BERTimbau** | **Squad 1.1** | **15** | **31.23** | **3.08** |
-||
 | **Generative** | **PTT5 Base** | **Pirá 2** | **15** | **24.47** | **1.76** |
 
 ## Answer Triggering
