@@ -83,9 +83,9 @@ Results in English:
 Results in Portuguese:
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
-| **Extractive | BERTimbau | Squad 1.1 | 512 | 37.53 | 4.44** |
+| **Extractive** | **BERTimbau** | **Squad 1.1** | **512** | **37.53** | **4.44** |
 ||
-| **Generative | PTT5 Base | Pirá 2 | 1536 | 27.90 | 4.44** |
+| **Generative** | **PTT5 Base** | **Pirá 2** | **1536** | **27.90** | **4.44** |
 | Generative | mT5 Base | SQuAD 2/Pirá 2 | 512 | 14.23 | 0.00 |
 
 ## Information Retrieval
