@@ -83,8 +83,9 @@ Results in English:
 Results in Portuguese:
 | Model type | Model | Fine-tuned | MSL | F1 | EM |
 |---|---|---|---|---|---|
-| Extractive | BERTimbau | Squad 1.1 | 512 | 37.53 | 4.44 |
-| Generative | PTT5 Base | Pirá 2 | 1536 | 27.90 | 4.44 |
+| **Extractive | BERTimbau | Squad 1.1 | 512 | 37.53 | 4.44** |
+||
+| **Generative | PTT5 Base | Pirá 2 | 1536 | 27.90 | 4.44** |
 | Generative | mT5 Base | SQuAD 2/Pirá 2 | 512 | 14.23 | 0.00 |
 
 ## Information Retrieval
@@ -93,12 +94,54 @@ Information Retrieval is the task of traversing a corpus C and delivering the _k
 ## Open Question Answering
 Open Question Answering combines the two previous tasks in one: given a question, one has to find the corresponding texts and generate an answer based on them.
 
+Results in English:
+| Model type | Model | Fine-tuned | k | F1 | EM |
+|---|---|---|---|---|---|
+| **Extractive** | **RoBERTa Large** | **SQuAD 2** | **5** | **41.65** | **11.01** |
+| Extractive | RoBERTa Large | SQuAD 2 | 10 | 40.87 | 11.01 |
+| Extractive | RoBERTa Large | SQuAD 2 | 15 | 40.48 | 10.57 |
+||
+| Generative | T5 Base | SQuAD 2/Pirá 2 | 5 | 45.99 | 12.33 |
+| Generative | T5 Base | SQuAD 2/Pirá 2 | 10 | 47.12 | 11.45 |
+| **Generative** | **T5 Base** | **SQuAD 2/Pirá 2** | **15** | **48.11** | **11.45** |
+
+Results in Portuguese:
+| Model type | Model | Fine-tuned | k | F1 | EM |
+|---|---|---|---|---|---|
+| **Extractive** | **BERTimbau** | **Squad 1.1** | **15** | **31.23** | **3.08** |
+||
+| **Generative** | **PTT5 Base** | **Pirá 2** | **15** | **24.47** | **1.76** |
+
 ## Answer Triggering
 Answer Triggering is the problem of finding which questions should be answered and which ones should not; the “answerability” label are created from the manual assessments for question meaningfulness found on Pirá. 
+
+For this benchmark, we use three types of dataset. _Standard_ is the regular Pirá 2.0 dataset after the aswer triggering labeling process. In _Human Paraphrase_, the training set is augmented with the validation answers and question paraphrases produced in the assessment phase. In _Automatic Paraphrase_, the training set is augmented with automatic paraphrases, using PEGASUS for English and PTT5-Paraphraser for Portuguese. 
+
+F1-score for class assignment and Naive Bayes. 
+| Dataset | Class Assignment | Naive Bayes |
+|---|---|---|
+| Standard | **45.32** | **45.32 (1)** |
+| Hum. Par. | **45.32** | 43.90 (3) |
+| Autom. Par. | **45.32** | 44.34 (2) |
+
+F1-score for transformer models in English (DistilBERT, RoBERTa, and ALBERT) and Portuguese (BERTimbau).
+| Dataset | DistilBERT | RoBERTa | ALBERT | BERTimbau |
+|---|---|---|---|---|
+| Standard | 48.33 (2) | 51.61 (1) | 52.31 (2) | 46.09 (3) |
+| Hum. Par. | 47.84 (3) | 49.72 (3) | **54.53 (1)** | 48.55 (2) |
+| Autom. Par. | 48.59 (1) | 50.76 (2) | 51.32 (3) | **49.18 (1)** |
+
 
 ##  Multiple-Choice Question Answering
 In Multiple Choice Question Answer, each question has five alternative answers, and the goals is to find the correct one.
 
+| Model | Accuracy |
+|---|---|
+| Random | 20 |
+| IR-Text | 25.80 |
+| IR-Base | 22.58 |
+| UnifiedQA-NST | 51.98 |
+| **UnifiedQA-ST** | **73.12** |
 
 # Web application
 As part of the process of creating Pirá, we developed a web application for conducting the two phases of the experiment: QA creation and evaluation.
