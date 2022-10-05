@@ -50,8 +50,6 @@ We organize the dataset in two different files. In both cases, the dataset is sp
 
 - Benchmarks supported: machine reading comprehension, information retrieval, open question answering, and answer triggering.
 
-- Split into train, validation, and test sets.
-
 ### Multiple-choice QA
 - Contains the supporting texts, candidate answers, and the label for the correct answer.
 
