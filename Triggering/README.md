@@ -1,4 +1,4 @@
-README test for Answer Triggering
+README
 
 Codes for the Answer Triggering benchmark.
 
