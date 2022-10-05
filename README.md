@@ -58,7 +58,7 @@ We organize the dataset in two different files. In both cases, the dataset is sp
 - Benchmark supported: multiple-choice question answering.
 
 ### Pirá 1.0
-The original dataset is available here.
+The original dataset is available [here](https://github.com/C4AI/Pira/tree/main/Pira1.0).
 
 # Baselines
 Five benchmarks have been created for Pirá 2.0: machine reading comprehension, information retrieval, open question answering, answer triggering, and multiple-choice question answering. Codes for the experiments reported in Pirá 2.0 are available at this page.
