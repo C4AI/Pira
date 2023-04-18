@@ -6,6 +6,4 @@ Files:
 
 - PTT5-Paraphraser: script for generating paraphrases in Portuguese
 
-Folder:
-
-- ptt5_paraphraser: requirements for loading the PTT5-Paraphraser model
+The PTT5-Paraphraser model is provided under request, given its size
