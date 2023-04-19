@@ -1,5 +1,9 @@
 Codes for the Answer Triggering benchmark.
 
-There are 5 files, which represent the different baselines used in this task: Naive Bayes, DistilBERT (EN), RoBERTa (EN), AlBERT (EN) and BERTimbau (PT).
+There are 2 script files:
 
-Paraphrase in Portuguese and English are available in this folder.
+1. 'naive_bayes.py': Loop for generating the results of the naive bayes and class assignment baselines.
+
+2. 'transformers.py': Loop for generating the results of the transformer models ('bert-base-uncased', 'bert-large-uncased', 'roberta-base', 'roberta-large').
+
+Result for the two tests can be found in this folder as well.
