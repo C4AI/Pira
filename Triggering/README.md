@@ -6,4 +6,4 @@ There are 2 script files:
 
 2. 'transformers.py': Loop for generating the results of the transformer models ('bert-base-uncased', 'bert-large-uncased', 'roberta-base', 'roberta-large').
 
-Result for the two tests can be found in this folder as well.
+The 2 '.csv' files contain the results of the two tests.
