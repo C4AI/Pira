@@ -1,0 +1,4 @@
+allenai/unifiedqa-t5-base,with_context,82.37885462555066
+allenai/unifiedqa-t5-base,no_context,88.10572687224669
+allenai/unifiedqa-t5-large,no_context,89.42731277533039
+allenai/unifiedqa-t5-large,with_context,89.86784140969164
