@@ -15,7 +15,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # Create headline
 with open('mcqa_results.csv', 'a') as fd:
     write = csv.writer(fd)
-    write.writerow(['model_name', 'acc'])
+    write.writerow(['model_name', 'context', 'acc'])
 
 
 model_names = ["allenai/unifiedqa-t5-base", "allenai/unifiedqa-t5-large"]
