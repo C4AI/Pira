@@ -1,4 +1,5 @@
-allenai/unifiedqa-t5-base,with_context,82.37885462555066
-allenai/unifiedqa-t5-base,no_context,88.10572687224669
-allenai/unifiedqa-t5-large,no_context,89.42731277533039
-allenai/unifiedqa-t5-large,with_context,89.86784140969164
+model_name,acc
+allenai/unifiedqa-t5-base,no_context,85.90308370044053
+allenai/unifiedqa-t5-base,with_context,95.15418502202643
+allenai/unifiedqa-t5-large,no_context,87.22466960352423
+allenai/unifiedqa-t5-large,with_context,93.3920704845815
