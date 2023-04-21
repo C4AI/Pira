@@ -1,0 +1,16 @@
+model_name,dataset_type,language,f1,acc
+bert-base-uncased,human_paraphrase,english,0.8343434343434343,0.8383838383838383
+bert-base-uncased,automatic_paraphrase,english,0.8384034779969379,0.8535353535353535
+bert-base-uncased,standard,english,0.8585722819593788,0.8888888888888888
+bert-large-uncased,standard,english,0.8431212393476544,0.8737373737373737
+bert-large-uncased,human_paraphrase,english,0.8584786860648931,0.9040404040404041
+bert-large-uncased,automatic_paraphrase,english,0.8584786860648931,0.9040404040404041
+roberta-base,human_paraphrase,english,0.8498991723923973,0.8737373737373737
+roberta-base,automatic_paraphrase,english,0.855671540199842,0.8838383838383839
+roberta-base,standard,english,0.8584786860648931,0.9040404040404041
+roberta-large,human_paraphrase,english,0.8556930765894404,0.8737373737373737
+roberta-large,standard,english,0.8584786860648931,0.9040404040404041
+roberta-large,automatic_paraphrase,english,0.8584786860648931,0.9040404040404041
+neuralmind/bert-base-portuguese-cased,standard,portuguese,0.8431212393476544,0.8737373737373737
+neuralmind/bert-base-portuguese-cased,human_paraphrase,portuguese,0.85595314850634,0.898989898989899
+neuralmind/bert-base-portuguese-cased,automatic_paraphrase,portuguese,0.8508615567439097,0.8888888888888888
