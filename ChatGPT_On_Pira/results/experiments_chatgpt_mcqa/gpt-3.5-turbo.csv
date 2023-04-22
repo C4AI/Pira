@@ -38,7 +38,7 @@ A1090,"The article alludes to the fact that Brazil is still a hotspot for oil ex
   C: In BC-20 Block in the Campos Basin - Brazil, 110 kilometers away from Rio de Janeiro state coast.
   D: Campos
   E: In Campos Basin.
- ",A,A: The fact that big firms of E&P participated on the auction for the blocks.,0
+ ",A,A: The fact that big firms of E&P participated on the auction for the blocks.,1
 A1091,"How are CO2 concentrations in Santos Basin Pre-Salt reservoir compared to other Brazilian fields?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: How are CO2 concentrations in Santos Basin Pre-Salt reservoir compared to other Brazilian fields?
   A: They are generally higher than those found in other Brazilian fields.
@@ -158,7 +158,7 @@ A1172,"Why the upwelling phenomenon occurs in the north coast of the Rio de Jane
   C: It was possible to characterize three distinct palynofacies, of which the palynofacies had the best characteristics for quality and preservation of organic matter.
   D: The BG Group data were released before the fourth quarter results were presented.
   E: That the changes will be designed in a way to maintain the interest of foreign investors in the country.
- ",B,B: The phenomenon occurs due to constant northeast winds.,0
+ ",B,B: The phenomenon occurs due to constant northeast winds.,1
 A1186,"Where can we find salt rocks like halite, carnallite and tachyhydrite?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: Where can we find salt rocks like halite, carnallite and tachyhydrite?
   A: In the Santos basin off Brazil
@@ -166,7 +166,7 @@ A1186,"Where can we find salt rocks like halite, carnallite and tachyhydrite?
   C: Conventional ultrasound-based waves cannot generate proper signal levels and penetrate thick-walled casing commonly used in deepwater well completions.
   D: Several operational problems, currently related to high nonproductive times.
   E: It has caused a significant growth in the orders of exploration and production platforms, drilling rigs and various types of support vessels, and in the construction of new shipyards or the expansion and modernization of existing ones.
- ",A,A: In the Santos basin off Brazil.,0
+ ",A,A: In the Santos basin off Brazil.,1
 A1194,"What are the tests performed for the simulation?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What are the tests performed for the simulation?
   A: The BG Group data were released before the fourth quarter results were presented.
@@ -270,7 +270,7 @@ A1350,"What can provide refuge against ocean acidification effects?
   C: Because of the increasing seawater temperature.
   D: The greenhouse effect.
   E: A reduction in number of species from the equator to the poles.
- ",A,A: The metabolic interactions between calcifying and non-calcifying organisms.,0
+ ",A,A: The metabolic interactions between calcifying and non-calcifying organisms.,1
 A1355,"Which agents can change the effect of ocean acidification and warming on the physiology of calcifying algae?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: Which agents can change the effect of ocean acidification and warming on the physiology of calcifying algae?
   A: The metabolic interactions between calcifying and non-calcifying organisms.
@@ -598,7 +598,7 @@ A1765,"How can we successfully map a natural gas hydrate systems?
   C: oil and natural gas
   D: The state's gas production will be increased to 11 million cu m/day of gas.
   E: The quality of coastal population life and the protection of ecosystems and resources within it.
- ",B,B: Using a controlled source electromagnetic method.,0
+ ",B,B: Using a controlled source electromagnetic method.,1
 A1769,"Why was the Soure Marine Extractive Reserve created?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: Why was the Soure Marine Extractive Reserve created?
   A: To protect the biodiversity of the Marajó Archipelago and guarantee the sustainability of its ecosystems
@@ -798,7 +798,7 @@ A1950,"What does GHSZ stand for?
   C: In high water depths.
   D: oil and natural gas
   E: The state's gas production is 11 million m3 / day of gas in 2010
- ",A,A: gas hydrate stability zone,0
+ ",A,A: gas hydrate stability zone,1
 A1951,"How is Paracuari's oligo-mesohaline estuary characterized?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: How is Paracuari's oligo-mesohaline estuary characterized?
   A: by high local hydrodynamics and nutrient input from the Paracauari River and Marajó Bay
@@ -822,7 +822,7 @@ A202,"Where to find Amphisbaena pretrei?
   C: This is effective in improving fatigue and adopting a slow wave configuration, instead of a simple catenary. SLWRs have been used successfully in Brazil, the Gulf of Mexico, the North Sea and Australia. However, it is probably the most computationally intensive aspect of it. Fatigue analysis requires a large number of load cases to be performed, in complex nonlinear models.
   D: Eastern Brazil.
   E: Many projections estimate the loss of all commercial fisheries by the middle of the century, but this information is unreliable.
- ",D,D: Eastern Brazil.,0
+ ",D,D: Eastern Brazil.,1
 A213,"When does the giant ray Manta birostris use the Paranaguá estuarine complex in southern Brazil to deposit its eggs?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: When does the giant ray Manta birostris use the Paranaguá estuarine complex in southern Brazil to deposit its eggs?
   A: Summer.
@@ -830,7 +830,7 @@ A213,"When does the giant ray Manta birostris use the Paranaguá estuarine compl
   C: Particularly over the Atlantic Ocean (e.g., the North Atlantic Oscillation, the Atlantic Meridional Mode, and the Atlantic Meridional Overturning Circulation), and the extratropical modes that occur in both hemispheres.
   D: Failure can immediately start gain and loss events in the well, with a direct impact on the safety of the process.
   E: During all seasons.
- ",A,A: Summer.,0
+ ",A,A: Summer.,1
 A232,"How will the Brazilian population be benefited with the early production of petroleum?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: How will the Brazilian population be benefited with the early production of petroleum?
   A: It will help to supply the growing energy demand.
@@ -910,7 +910,7 @@ A296,"What would be the destination of the LNG of the plant proposed by Petrobra
   C: Domestic terminals.
   D: 40 million cu m/day.
   E: Petrobras is studying manners of offshore gas exploration. Artificial lifting is one of them.
- ",C,C: Domestic terminals.,0
+ ",C,C: Domestic terminals.,1
 A322,"Who invented the torpedo anchor?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: Who invented the torpedo anchor?
   A: It followed the start-up of operations at the Marlim Sul floating production, storage, and offloading vessel (FPSO), at the Marlim Sul field, in the Campos basin.
@@ -942,7 +942,7 @@ A366,"What percentage of the current Brazilian oil production does the Campos ba
   C: The first floating unit from Brazil was on stream in 1977 at Campos Basin.
   D: oil and natural gas
   E: 62%.
- ",E,E: 62%.,0
+ ",E,E: 62%.,1
 A371,"On which vessel will the Hamworthy vaporizer system be installed?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: On which vessel will the Hamworthy vaporizer system be installed?
   A: supply 31 million cu m/day of LNG.
@@ -950,7 +950,7 @@ A371,"On which vessel will the Hamworthy vaporizer system be installed?
   C: That the changes will be designed in a way to maintain the interest of foreign investors in the country.
   D: The first floating unit from Brazil was on stream in 1977 at Campos Basin.
   E: Suez Neptune.
- ",E,E: Suez Neptune.,0
+ ",E,E: Suez Neptune.,1
 A394,"What precautions should Brazil take with the Brazilian Pre-Salt?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What precautions should Brazil take with the Brazilian Pre-Salt?
   A: To ensure sustainability, Brazil must inspect and monitor any exploration process, based on Brazilian law.
@@ -1014,7 +1014,7 @@ A439,"Where is the Amazon Coastal Zone located?
   C: 1996
   D: They were analyzed based on data from 28 wells drilled by Petrobras.
   E: Brazil
- ",E,E: Brazil,0
+ ",E,E: Brazil,1
 A445,"What is the transport capacity of the Cabiunas-Reduc III's gasoduct in cubic meters?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What is the transport capacity of the Cabiunas-Reduc III's gasoduct in cubic meters?
   A: The state's gas production will be increased to 11 million cu m/day of gas.
@@ -1206,7 +1206,7 @@ A638,"Where is The Papa Terra oil field located?
   C: This is effective in improving fatigue and adopting a slow wave configuration, instead of a simple catenary. SLWRs have been used successfully in Brazil, the Gulf of Mexico, the North Sea and Australia. However, it is probably the most computationally intensive aspect of it. Fatigue analysis requires a large number of load cases to be performed, in complex nonlinear models.
   D: That the changes will be designed in a way to maintain the interest of foreign investors in the country.
   E: In BC-20 Block in the Campos Basin - Brazil, 110 kilometers away from Rio de Janeiro state coast.
- ",E,"E: In BC-20 Block in the Campos Basin - Brazil, 110 kilometers away from Rio de Janeiro state coast.",0
+ ",E,"E: In BC-20 Block in the Campos Basin - Brazil, 110 kilometers away from Rio de Janeiro state coast.",1
 A647,"What was the goal of Petrobras until 2012 in terms of GNL?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What was the goal of Petrobras until 2012 in terms of GNL?
   A: supply 31 million cu m/day of LNG.
@@ -1350,7 +1350,7 @@ A867,"Where is located Albacora Leste field?
   C: The state's gas production will be increased to 11 million cu m/day of gas.
   D: Over the Jubarte Field, in the Santos Basin.
   E: In Campos Basin.
- ",E,E: In Campos Basin.,0
+ ",E,E: In Campos Basin.,1
 A874,"How much more gas was expected to be produced by day in Bahia with Petrobras' investments in 2010?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: How much more gas was expected to be produced by day in Bahia with Petrobras' investments in 2010?
   A: In order to expand the local gas networks, boost oil and gas output, and improve refining capabilities.
@@ -1438,7 +1438,7 @@ A968,"What is the name of the bay that Barracuda field is located in?
   C: Heavy and high viscosity oil
   D: The state's gas production will be increased to 11 million cu m/day of gas.
   E: Campos
- ",E,E: Campos,0
+ ",E,E: Campos,1
 A976,"Who sent a letter to US subsea engineer Global Industries?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: Who sent a letter to US subsea engineer Global Industries?
   A: Global's pipelay barge Iroquois.
@@ -1446,7 +1446,7 @@ A976,"Who sent a letter to US subsea engineer Global Industries?
   C: The project is a joint venture between Shell, Petrobras, and ONGC.
   D: About 80 km offshore
   E: Petrobras
- ",E,E: Petrobras,0
+ ",E,E: Petrobras,1
 B1994,"What is the estimated percentage growth rate in Asia-Pacific countries?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What is the estimated percentage growth rate in Asia-Pacific countries?
   A: The estimated rate is 10% per year.
@@ -1606,7 +1606,7 @@ B2223,"Why is the Arctic expected to increase its anthropogenic noise?
   C: A variety of options exist to deal with critical levels of marine litter, some of which include approaches to address the issue, while understanding that not all are applicable to or supported by every country and some do not consider adverse impacts: the reduction of plastic consumption; support for eco-design and innovation (especially research into end-of-life plastic issues and alternatives); resource efficiency and better management of waste and water; long-term, efficient and viable recycling targets for municipal waste, packaging and plastic waste; greater use of policy instruments and control measures, including incentives, taxes and other regulatory measures, such as bans or extended producer responsibility schemes; and the adoption of remanufacturing initiatives and the coordination of policy investments in the waste sector. There is also a need for tight regulation and supervision of global waste trading, especially scrap plastic.
   D: An aptiana volcanic activity in the South Atlantic
   E: Particularly over the Atlantic Ocean (e.g., the North Atlantic Oscillation, the Atlantic Meridional Mode, and the Atlantic Meridional Overturning Circulation), and the extratropical modes that occur in both hemispheres.
- ",B,B: Because the area is opening up to the shipping.,0
+ ",B,B: Because the area is opening up to the shipping.,1
 B2227,"What are the consequences of marine environment pressure?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What are the consequences of marine environment pressure?
   A: A variety of options exist to deal with critical levels of marine litter, some of which include approaches to address the issue, while understanding that not all are applicable to or supported by every country and some do not consider adverse impacts: the reduction of plastic consumption; support for eco-design and innovation (especially research into end-of-life plastic issues and alternatives); resource efficiency and better management of waste and water; long-term, efficient and viable recycling targets for municipal waste, packaging and plastic waste; greater use of policy instruments and control measures, including incentives, taxes and other regulatory measures, such as bans or extended producer responsibility schemes; and the adoption of remanufacturing initiatives and the coordination of policy investments in the waste sector. There is also a need for tight regulation and supervision of global waste trading, especially scrap plastic.
@@ -1638,7 +1638,7 @@ B2287,"What are the major threats to marine biodiversity?
   C: Overexploitation and habitat loss and degradation
   D: Changes in people and economies, governance structures and the effects of climate change on maritime industries and the environment.
   E: Biodiversity loss, habitat damage and fragmentation as well as diseases
- ",C,C: Overexploitation and habitat loss and degradation,0
+ ",C,C: Overexploitation and habitat loss and degradation,1
 B2327,"How much more CO2 is being emited in 2019 compared to 2010, in gigaton?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: How much more CO2 is being emited in 2019 compared to 2010, in gigaton?
   A: Changes in people and economies, governance structures and the effects of climate change on maritime industries and the environment.
@@ -1646,7 +1646,7 @@ B2327,"How much more CO2 is being emited in 2019 compared to 2010, in gigaton?
   C: It evidences the alteration of the water cycle of the global ocean in a period coinciding with its warming.
   D: Shed light on the effects of climate and oceanographic variability on sediment input and accumulation in a less-studied portion of the Brazilian shelf
   E: 2.9.
- ",E,E: 2.9.,0
+ ",E,E: 2.9.,1
 B2353,"What are the main causes of the rise in the mean sea level?
  ","Answer the following question with the correct alternative. GIVE ONLY THE CORRECT LETTER. Question: What are the main causes of the rise in the mean sea level?
   A: It evidences the alteration of the water cycle of the global ocean in a period coinciding with its warming.
